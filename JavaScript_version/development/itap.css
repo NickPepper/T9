@@ -1,0 +1,96 @@
+/**
+ * Multi-tap and predictive text system emulator
+ *
+ * @author Nick Pershin <nikolaiperschin doggi mail punkt ru>
+ * @copyright Copyright (c) 2010 Nick Pershin
+ */ 
+
+/*
+ ***************** Main Layout *****************
+ */
+* {
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #FFF;
+	text-align: center;
+}
+
+#wrapper {
+	width: 310px;
+	margin: 10px auto;
+}
+
+#predictions {
+	width: 150px;
+	height: 246px;
+	float: right;
+	margin-top: 2px;
+	border: 1px solid silver;
+	background-color: white;
+	overflow: auto;
+	text-align: right;
+}
+
+#keypad {
+	float: left;
+	width: 150px;
+}
+
+#footer {
+	clear: both;
+	text-align: left;
+	margin: 4px;
+	vertical-align: middle;
+}
+
+#footer p {
+    font-size: 10px;
+    color: #AAA;
+    margin: 4px 0;
+}
+
+/*
+ ***************** GUI elements *****************
+ */
+button {
+    width: 50px;
+    height: 44px;
+    white-space: pre-line;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+textarea {
+    width: 144px;
+    height: 66px;
+    margin: 2px 0;
+    cursor: default;
+}
+
+#screen {
+	width: 150px;
+	height: 72px;
+	position: absolute;
+	top: 12px;
+	background-color: lightgreen;
+	z-index: 900;
+	opacity: 0.4;
+}
+
+a {
+	color: #333;
+	background-color: #FFF;
+	text-decoration: none;
+	margin: 2px;
+	padding: 0 4px;
+}
+a:hover {
+    background-color: lightblue;
+    text-decoration: none;
+    color: yellow;
+}
