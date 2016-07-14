@@ -1,6 +1,6 @@
 
-T9 prediction algorithm
-=======================
+T9 / ITAP prediction algorithms
+===============================
 
 With ITU-T E.161 keypad emulator.
 
